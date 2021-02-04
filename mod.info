@@ -1,7 +1,7 @@
-name=Zomboid Mod
+name=Air horn
 poster=poster.png
-description=This is a zomboid mod template
-id=pz-zmod
-url=https://github.com/yooksi/pz-zmod
+description=Excellent for distracting zombies, moving hordes ...
+id=pz-airhorn
+url=https://github.com/JHDane/pz-airhorn
 modversion=1.0
-pzversion=41.47
+pzversion=41.50-IWBUMS
