@@ -47,12 +47,6 @@ require "Items/ItemPicker"
 	table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, "Base.AirHorn");
 	table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, 1);
 
-	table.insert(SuburbsDistributions["Bag_ALICEpack_Army"].items, "Base.AirHorn");
-	table.insert(SuburbsDistributions["Bag_ALICEpack_Army"].items, 50);
-
-	table.insert(SuburbsDistributions["Bag_ALICEpack"].items, "Base.AirHorn");
-	table.insert(SuburbsDistributions["Bag_ALICEpack"].items, 50);
-
 
 	local function isMod(mod_Name)
 		local mods = getActivatedMods();
