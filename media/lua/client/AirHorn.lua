@@ -1,16 +1,36 @@
-local function AirHorn(_keyPressed)
+local function AirHorn()
 
-  local key = _keyPressed;
-  -- key "u"
+local player = getPlayer()
+local playerSquare = getPlayer():getSquare()
+local item = player:getPrimaryHandItem()
 
-    if key == 22 then
 
-        local player        = getSpecificPlayer(0);
-        local playerSquare  = getSpecificPlayer(0):getSquare();
+  if item and item:getType() == "AirHorn" then
 
-        getSoundManager():PlayWorldSound("AirHorn",player:getSquare(),0, 10, 10.0, false);
-        addSound(player, player:getX(), player:getY(), player:getZ(), 250, 50);
+    local condition = item:getCondition();
+
+    item:setCondition(condition - 1);
+
+
+    if condition ~= 0 then
+
+      getSoundManager():PlayWorldSound("AirHorn",player:getSquare(),0, 10, 10.0, false);
+      addSound(player, player:getX(), player:getY(), player:getZ(), 250, 50);
+
+    elseif condition == 0 then
+
+      player:Say("Broken")
+
     end
+
+
+
+  else
+
+    player:Say('NO');
+
+  end
+
 end
 
-Events.OnKeyPressed.Add(AirHorn)
+Events.OnMouseUp.Add(AirHorn)
