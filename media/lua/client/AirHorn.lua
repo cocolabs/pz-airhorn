@@ -1,11 +1,10 @@
 local function AirHorn()
 
 local player = getPlayer()
-local playerSquare = getPlayer():getSquare()
 local item = player:getPrimaryHandItem()
 
 
-  if item and item:getType() == "AirHorn" then
+  if item and item:getType() == "AirHorn" and player:IsAiming() then
 
     local condition = item:getCondition();
 
