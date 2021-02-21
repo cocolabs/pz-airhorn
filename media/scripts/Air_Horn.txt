@@ -1,18 +1,5 @@
 module Base
 {
-
-    item AirHornCan
-    {
-        CanStack	=	FALSE,
-        Weight	=	0.2,
-        Type	=	Normal,
-        DisplayName	=	Air Horn Can,
-        Icon	=	AirHornCan,
-        MaxAmmo = 0,
-        StaticModel = GunMagazine,
-    }
-
-
     item AirHorn
     {
         WeaponSprite = AirHorn,
