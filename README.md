@@ -1,20 +1,20 @@
-# ZomboidMod
+# Air Horn Mod
 
-![Game Version](https://img.shields.io/badge/PZ%20Version-IWBUMS%3A%2041.47-red) [![License](https://img.shields.io/github/license/yooksi/pz-zmod)](https://www.gnu.org/licenses/)
+![Game Version](https://img.shields.io/badge/PZ%20Version-IWBUMS%3A%2041.50-red) [![License](https://img.shields.io/github/license/yooksi/pz-zmod)](https://www.gnu.org/licenses/)
 
-Short description of what this mod is all about.
+Added an air horn to the game to make noise and attract zombies, a great mod for those who don't want to waste ammo while being mobile
 
 ## Motivation
 
-A short description of the motivation behind the creation of this mod.
+In an episode of The Walking Dead we can see Daryl using the Air Horn to attract the horde, I wanted to integrate this item into the game for my first mod
 
 ## Screenshots
 
-Show everyone how great your mod is.
+![alt text](https://i.ibb.co/MV3rp2r/airhorn.jpg)
 
 ## Features
 
-Write about things that make this mod great.
+The Air Horn is a small object to make as much noise as possible  
 
 ## Installation
 
@@ -25,13 +25,19 @@ Write about things that make this mod great.
 For more information read [How To Install / Uninstall Mods](https://theindiestone.com/forums/index.php?/topic/1395-how-to-install-uninstall-mods/) forum thread.
 
 ## How to use
-Explain different ways in which your mod can be used in-game.
+
+- Find an Air Horn, 
+- equip yourself with the Air Horn and press the left mouse button
+- Do not stay in the area
 
 ## Credits
 
-Give proper credits to those that help make this project. This could be a link to things that inspired you to make this  mod as well as any blog-posts or links to people who contributed to the project.
+Mod created with Coco-labs (https://github.com/real-coco-labs)  
+Yooks - Supervisor - (https://github.com/yooksi)  
+Chuck - Code help - (https://github.com/ChuckTheSheep)  
+Raven2236 - Sound designer
 
 ## License
 A short snippet describing the license (MIT, Apache etc).
 
-MIT © [Yourname](https://github.com/yooksi)
+MIT © [Dane](https://github.com/DaneTank)
