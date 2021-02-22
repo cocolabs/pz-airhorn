@@ -17,26 +17,31 @@ java {
         languageVersion = JavaLanguageVersion.of(8)
     }
 }
-
-sourceSets {
-    media {
-        java.srcDirs = ['media/lua']
-        resources.srcDirs = [
-                'media/models', 'media/scripts',
-                'media/sound', 'media/textures'
-        ]
-    }
-}
 apply from: 'setup.gradle'
 apply from: 'distribution.gradle'
 if (project.ext.has('gameDir'))
 {
-    apply from: 'zomboid.gradle'
+    List<String> resourcesList = new ArrayList<>()
+    def gameDirPath = gameDir as java.nio.file.Path
+    //@formatter:off
+    gameDirPath.resolve('media').toFile().listFiles().each
+    {
+        if (it.directory) {
+            resourcesList.add("media/${it.name}")
+        }
+    }//@formatter:on
+    sourceSets {
+        media {
+            java.srcDirs = ['media/lua']
+            resources.srcDirs resourcesList
+        }
+    }
     apply from: 'mod.gradle'
+    apply from: 'zomboid.gradle'
     apply from: 'zdoc.gradle'
+
+    jar {
+        from sourceSets.media.output
+    }
 }
 defaultTasks 'showModInfo'
-
-jar {
-    from sourceSets.media.output
-}
