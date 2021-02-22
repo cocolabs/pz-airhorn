@@ -46,7 +46,6 @@ module Base
         firePower = 0,
         fireRange = 0,
         WeaponReloadType = handgun,
-        MagazineType = AirHornCan,
         JamGunChance = 0,
         haveChamber = FALSE,
         AttachmentType = knife,
