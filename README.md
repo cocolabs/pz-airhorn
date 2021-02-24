@@ -1,4 +1,4 @@
-# Air Horn Mod
+# Air Horn
 
 ![Game Version](https://img.shields.io/badge/PZ%20Version-IWBUMS%3A%2041.50-red) [![License](https://img.shields.io/github/license/yooksi/pz-zmod)](https://www.gnu.org/licenses/)
 
