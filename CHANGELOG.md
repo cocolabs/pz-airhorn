@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.0.1](https://github.com/real-coco-labs/pz-airhorn/tree/v1.0.1) (2021-02-24)
+
+[Full Changelog](https://github.com/real-coco-labs/pz-airhorn/compare/v1.0.0...v1.0.1)
+
+**Fixed bugs:**
+
+- Error when activating mod [\#9](https://github.com/real-coco-labs/pz-airhorn/issues/9)
+
 ## [v1.0.0](https://github.com/real-coco-labs/pz-airhorn/tree/v1.0.0) (2021-02-22)
 
 [Full Changelog](https://github.com/real-coco-labs/pz-airhorn/compare/5399a76517673056f15938b90491f39b6c867808...v1.0.0)
