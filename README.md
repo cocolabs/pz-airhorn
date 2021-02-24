@@ -1,12 +1,13 @@
-# Air Horn Mod
+# Air Horn
 
-![Game Version](https://img.shields.io/badge/PZ%20Version-IWBUMS%3A%2041.50-red) [![License](https://img.shields.io/github/license/yooksi/pz-zmod)](https://www.gnu.org/licenses/)
+![Game Version](https://img.shields.io/badge/PZ%20Version-IWBUMS%3A%2041.50-red) [![License](https://img.shields.io/github/license/yooksi/pz-zmod)](https://www.gnu.org/licenses/) [![chat](https://img.shields.io/discord/717757483376050203?color=7289DA)](https://discord.gg/vCeydWCbd9)
 
-Added an air horn to the game to make noise and attract zombies, a great mod for those who don't want to waste ammo while being mobile
+Air horn is a simple mod for Project Zomboid that adds an item which makes a lot of noise and attracts zombies. It is great for saving ammunition and constantly staying on the move.
 
 ## Motivation
 
-In an episode of The Walking Dead we can see Daryl using the Air Horn to attract the horde, I wanted to integrate this item into the game for my first mod
+In an episode of The Walking Dead we can see Daryl using an air horn to attract the horde. 
+I wanted to integrate this item into the game for my first mod
 
 ## Screenshots
 
@@ -14,7 +15,7 @@ In an episode of The Walking Dead we can see Daryl using the Air Horn to attract
 
 ## Features
 
-The Air Horn is a small object to make as much noise as possible  
+- The Air Horn is a small object that makes as much noise as possible.  
 
 ## Installation
 
@@ -26,18 +27,13 @@ For more information read [How To Install / Uninstall Mods](https://theindieston
 
 ## How to use
 
-- Find an Air Horn, 
-- equip yourself with the Air Horn and press the left mouse button
-- Do not stay in the area
+- Find or construct the Air Horn item.
+- Equip the Air Horn item and press the left mouse button.
+- Do not stay in the area!
 
 ## Credits
 
-Mod created with Coco-labs (https://github.com/real-coco-labs)  
-Yooks - Supervisor - (https://github.com/yooksi)  
-Chuck - Code help - (https://github.com/ChuckTheSheep)  
-Raven2236 - Sound designer
+This mod was created in [Coco Labs](https://github.com/real-coco-labs).
 
 ## License
-A short snippet describing the license (MIT, Apache etc).
-
 MIT © [Dane](https://github.com/DaneTank)
