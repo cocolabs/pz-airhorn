@@ -6,7 +6,8 @@ Air horn is a simple mod for Project Zomboid that adds an item which makes a lot
 
 ## Motivation
 
-In an episode of The Walking Dead we can see Daryl using the Air Horn to attract the horde, I wanted to integrate this item into the game for my first mod
+In an episode of The Walking Dead we can see Daryl using an air horn to attract the horde. 
+I wanted to integrate this item into the game for my first mod
 
 ## Screenshots
 
@@ -14,7 +15,7 @@ In an episode of The Walking Dead we can see Daryl using the Air Horn to attract
 
 ## Features
 
-The Air Horn is a small object to make as much noise as possible  
+- The Air Horn is a small object that makes as much noise as possible.  
 
 ## Installation
 
@@ -26,9 +27,9 @@ For more information read [How To Install / Uninstall Mods](https://theindieston
 
 ## How to use
 
-- Find an Air Horn, 
-- equip yourself with the Air Horn and press the left mouse button
-- Do not stay in the area
+- Find or construct the Air Horn item.
+- Equip the Air Horn item and press the left mouse button.
+- Do not stay in the area!
 
 ## Credits
 
@@ -38,6 +39,4 @@ Chuck - Code help - (https://github.com/ChuckTheSheep)
 Raven2236 - Sound designer
 
 ## License
-A short snippet describing the license (MIT, Apache etc).
-
 MIT © [Dane](https://github.com/DaneTank)
