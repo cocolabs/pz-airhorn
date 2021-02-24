@@ -2,7 +2,7 @@
 
 ![Game Version](https://img.shields.io/badge/PZ%20Version-IWBUMS%3A%2041.50-red) [![License](https://img.shields.io/github/license/yooksi/pz-zmod)](https://www.gnu.org/licenses/)
 
-Added an air horn to the game to make noise and attract zombies, a great mod for those who don't want to waste ammo while being mobile
+Air horn is a simple mod for Project Zomboid that adds an item which makes a lot of noise and attracts zombies. It is great for saving ammunition and constantly staying on the move.
 
 ## Motivation
 
