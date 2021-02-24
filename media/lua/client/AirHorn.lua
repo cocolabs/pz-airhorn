@@ -1,25 +1,19 @@
-local function AirHorn()
+Events.OnMouseUp.Add(function()
 
-  ---@type IsoGameCharacter
-  local player = getPlayer();
+	---@type IsoGameCharacter
+	local player = getPlayer();
 
-  ---@type InventoryItem
-  local item = player:getPrimaryHandItem();
+	---@type InventoryItem
+	local item = player:getPrimaryHandItem()
 
-  if item and item:getType() == "AirHorn" and player:IsAiming() then
+	if item and item:getType() == "AirHorn" and player:IsAiming() then
 
-    local condition = item:getCondition() - 1;
+		local condition = item:getCondition() - 1;
+		item:setCondition(condition);
 
-    item:setCondition(condition);
-
-    if condition ~= 0 then
-      getSoundManager():PlayWorldSound("AirHorn", player:getSquare(), 0, 10, 10.0, false);
-      addSound(player, player:getX(), player:getY(), player:getZ(), 250, 50);
-    else
-
-    end
-  else
-    
-  end
-end
-Events.OnMouseUp.Add(AirHorn)
+		if condition ~= 0 then
+			getSoundManager():PlayWorldSound("AirHorn", player:getSquare(), 0, 10, 10.0, false);
+			addSound(player, player:getX(), player:getY(), player:getZ(), 250, 50);
+		end
+	end
+end)
