@@ -4,7 +4,7 @@ Events.OnMouseUp.Add(function()
 	local player = getPlayer();
 
 	---@type InventoryItem
-	local item = player:getPrimaryHandItem()
+	local item = player and player:getPrimaryHandItem() or nil
 
 	if item and item:getType() == "AirHorn" and player:IsAiming() then
 
