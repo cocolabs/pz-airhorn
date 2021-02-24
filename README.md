@@ -33,10 +33,7 @@ For more information read [How To Install / Uninstall Mods](https://theindieston
 
 ## Credits
 
-Mod created with Coco-labs (https://github.com/real-coco-labs)  
-Yooks - Supervisor - (https://github.com/yooksi)  
-Chuck - Code help - (https://github.com/ChuckTheSheep)  
-Raven2236 - Sound designer
+This mod was created created in [Coco Labs](https://github.com/real-coco-labs).
 
 ## License
 MIT © [Dane](https://github.com/DaneTank)
