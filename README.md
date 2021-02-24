@@ -33,7 +33,7 @@ For more information read [How To Install / Uninstall Mods](https://theindieston
 
 ## Credits
 
-This mod was created created in [Coco Labs](https://github.com/real-coco-labs).
+This mod was created in [Coco Labs](https://github.com/real-coco-labs).
 
 ## License
 MIT © [Dane](https://github.com/DaneTank)
