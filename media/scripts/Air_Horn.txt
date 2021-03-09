@@ -15,7 +15,7 @@ module Base
         Weight	=	2,
         SplatNumber	=	0,
         SubCategory	=	Firearm,
-        ConditionMax	=	10,
+        ConditionMax	=	30,
         ShareDamage	=	FALSE,
         MaxHitCount	=	1,
         IsAimedFirearm	=	FALSE,
